@@ -14,7 +14,8 @@ export default {
         pages: [
             '^pages/index/main',
             'pages/layout/main',
-            'pages/grid/main'
+            'pages/grid/main',
+            'pages/accordion/main'
         ],
         window: {
             backgroundTextStyle: 'light',

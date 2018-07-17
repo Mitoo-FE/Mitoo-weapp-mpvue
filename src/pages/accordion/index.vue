@@ -1,0 +1,75 @@
+<template>
+	<view>
+		<mit-panel noBorder title="基本">
+			<mit-accordion>
+				<mit-accordion-panel>
+					<view slot="title">
+						web design
+					</view>
+					<view slot="content" class="content">
+						网页设计（web design，又称为Web UI design，WUI design，WUI），是根据企业希望向浏览者传递的信息（包括产品、服务、理念、文化），进行网站功能策划，然后进行的页面设计美化工作
+					</view>
+				</mit-accordion-panel>
+				<mit-accordion-panel>
+					<view slot="title">
+						Industrial Design
+					</view>
+					<view slot="content" class="content">
+						工业设计（Industrial Design），简称ID。指以工学、美学、经济学为基础对工业产品进行设计。
+					</view>
+				</mit-accordion-panel>
+				<mit-accordion-panel>
+					<view slot="title">
+						web design
+					</view>
+					<view slot="content" class="content">
+						网页设计（web design，又称为Web UI design，WUI design，WUI），是根据企业希望向浏览者传递的信息（包括产品、服务、理念、文化），进行网站功能策划，然后进行的页面设计美化工作
+					</view>
+				</mit-accordion-panel>
+			</mit-accordion>
+		</mit-panel>
+
+		<mit-panel noBorder title="手风琴模式">
+			<mit-accordion isAccordion>
+				<mit-accordion-panel>
+					<view slot="title">
+						web design
+					</view>
+					<view slot="content" class="content">
+						网页设计（web design，又称为Web UI design，WUI design，WUI），是根据企业希望向浏览者传递的信息（包括产品、服务、理念、文化），进行网站功能策划，然后进行的页面设计美化工作
+					</view>
+				</mit-accordion-panel>
+				<mit-accordion-panel>
+					<view slot="title">
+						Industrial Design
+					</view>
+					<view slot="content" class="content">
+						工业设计（Industrial Design），简称ID。指以工学、美学、经济学为基础对工业产品进行设计。
+					</view>
+				</mit-accordion-panel>
+				<mit-accordion-panel>
+					<view slot="title">
+						web design
+					</view>
+					<view slot="content" class="content">
+						网页设计（web design，又称为Web UI design，WUI design，WUI），是根据企业希望向浏览者传递的信息（包括产品、服务、理念、文化），进行网站功能策划，然后进行的页面设计美化工作
+					</view>
+				</mit-accordion-panel>
+			</mit-accordion>
+		</mit-panel>
+	</view>
+</template>
+
+<script>
+export default {
+    data () {
+
+    }
+}
+</script>
+
+<style lang="css">
+.content{
+	padding: 20rpx;
+}
+</style>
