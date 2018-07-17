@@ -10,7 +10,7 @@
 
 ### 项目构建
 
-``` bash
+```bash
 #创建一个基于 mpvue-quickstart 模板的新项目
 $ vue init mpvue/mpvue-quickstart my-project
 
@@ -41,5 +41,18 @@ new CopyWebpackPlugin([
 ])
 
 ```
-
+### 添加组件脚本
+```js
+#在入口文件中添加组件的引用
+export default {
+    config: {
+        'navigationBarTitleText': 'Mitoo-weapp & Mpvue',
+        'usingComponents': {
+            'mit-panel': '/components/Panel/index',
+            'mit-cell-group': '/components/CellGroup/index',
+            'mit-cell': '/components/Cell/index'
+        }
+    }
+}
+```
 至此，我们就可以在mpvue框架中使用mitoo-weapp组件库了
