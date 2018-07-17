@@ -15,7 +15,7 @@
 $ vue init mpvue/mpvue-quickstart my-project
 
 #引入mitoo-weapp组件库
-$ npm i mitoo-weapp
+$ yarn add mitoo-weapp
 
 ```
 具体构建mpvue项目请参考：[mpvue官网](http://mpvue.com/mpvue/)
@@ -56,3 +56,21 @@ export default {
 }
 ```
 至此，我们就可以在mpvue框架中使用mitoo-weapp组件库了
+
+### 工程示例
+```js
+#clone项目到本地
+git clone git@github.com:Mitoo-FE/Mitoo-weapp-mpvue.git
+
+#安装依赖
+yarn install
+或
+npm install
+
+#启动项目
+npm run dev
+
+打开微信开发者工具，选择dist目录为小程序的根目录
+
+```
+* 注：目前工程示例中，只有layout，grid，accordion能够跳转，具体使用，请参考代码
